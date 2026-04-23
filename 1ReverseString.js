@@ -1,13 +1,24 @@
-console.log("hello world")
-function reverceString(s){
-    const str=s
-    console.log(str)
-    for(i=str.length-1;i>0;i--){
-        // console.log(str[i])
-         process.stdout.write(str[i] + " ");
+// console.log("hello world")
+// function reverceString(s){
+//     const str=s
+//     console.log(str)
+//     for(i=str.length-1;i>0;i--){
+//         // console.log(str[i])
+//          process.stdout.write(str[i] + " ");
 
+//     }
+
+// }
+// const str="thisismyfirstcode"
+// reverceString(str)
+
+
+const reverseString = (() => {
+    const str = "hello world"
+    for (i = 0; i < str.length; i++) {
+        console.log(str[i])
     }
-    
-}
-const str="thisismyfirstcode"
-reverceString(str)
+})
+reverseString()
+
+

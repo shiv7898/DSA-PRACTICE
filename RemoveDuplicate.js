@@ -50,21 +50,42 @@
 // }
 // remDu();
 
+// function removeDuplicate(){
+//     const a1=[1,2,4,5,5,5,6,2,2,5,6,9,9,7,7,7]
+//     const a2=[]
+//     for(i=0;i<a1.length;i++){
+          
+//         for(j=0;j<a2.length;j++){
+//             if(a1[i]==a2[j]){
+//                 f=true
+//                 break
+//             }
+//         }
+//         if(!f){
+//             a2[a2.length]=a1[i]
+//         }
+//     }
+//     console.log(a2)
+// }
+// removeDuplicate()
+
+
 function removeDuplicate(){
-    const a1=[1,2,4,5,5,5,6,2,2,5,6,9,9,7,7,7]
-    const a2=[]
+    const a1=[1,1,1,3,3,4,4,5,5,1]
+    var a2=[]
     for(i=0;i<a1.length;i++){
-        f=false
+        let c=false
         for(j=0;j<a2.length;j++){
             if(a1[i]==a2[j]){
-                f=true
+                c=true
                 break
             }
         }
-        if(!f){
+        if(c==false){
             a2[a2.length]=a1[i]
         }
     }
     console.log(a2)
+
 }
 removeDuplicate()
