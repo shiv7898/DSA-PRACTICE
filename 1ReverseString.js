@@ -13,12 +13,21 @@
 // reverceString(str)
 
 
-const reverseString = (() => {
-    const str = "hello world"
-    for (i = 0; i < str.length; i++) {
-        console.log(str[i])
-    }
-})
-reverseString()
+// const reverseString = (() => {
+//     const str = "hello world"
+//     for (i = 0; i < str.length; i++) {
+//         console.log(str[i])
+//     }
+// })
+// reverseString()
 
 
+
+
+// function reverceString(){
+//     let str="hello world"
+//     for(i=str.length-1;i>0;i--){
+//         console.log(str[i])
+//     }
+// }
+// reverceString()

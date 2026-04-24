@@ -70,22 +70,66 @@
 // removeDuplicate()
 
 
-function removeDuplicate(){
-    const a1=[1,1,1,3,3,4,4,5,5,1]
-    var a2=[]
+// function removeDuplicate(){
+//     const a1=[1,1,1,3,3,4,4,5,5,1]
+//     var a2=[]
+//     for(i=0;i<a1.length;i++){
+//         let c=false
+//         for(j=0;j<a2.length;j++){
+//             if(a1[i]==a2[j]){
+//                 c=true
+//                 break
+//             }
+//         }
+//         if(c==false){
+//             a2[a2.length]=a1[i]
+//         }arr2[arr2.length]=arr1[i]
+//     }
+//     console.log(a2)
+
+// }
+// removeDuplicate()
+
+
+// function removeDuplicate(){
+//     const arr1=[2,1,1,1,1,4,4,5,5,6,7]
+//     let arr2=[]
+//     for(i=0;i<arr1.length;i++){
+//         let x=false
+//         for(j=0;j<arr2.length;j++){
+//             if(arr1[i]==arr2[j]){
+//                 x=true
+//                 break
+//             }
+            
+//         }
+//        if(!x){
+//         arr2[arr2.length]=arr1[i]
+//        }
+    
+//     }
+  
+//     console.log(arr2)
+
+// }
+// removeDuplicate()
+
+
+function removeDuplicateNumber(){
+    const a1=[2,2,2,2,3,3,3,3,3]
+    let a2=[]
     for(i=0;i<a1.length;i++){
-        let c=false
+        let x=false
         for(j=0;j<a2.length;j++){
             if(a1[i]==a2[j]){
-                c=true
+                x=true
                 break
             }
         }
-        if(c==false){
+        if(!x){
             a2[a2.length]=a1[i]
         }
     }
     console.log(a2)
-
 }
-removeDuplicate()
+removeDuplicateNumber()

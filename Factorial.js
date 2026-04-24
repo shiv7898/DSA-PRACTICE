@@ -134,12 +134,24 @@
 // }
 // palimdrom()
 
-function fact(){
-  let n=6
+// function fact(){
+//   let n=6
+//   let f=1
+//   for(i=n;i>=1;i--){
+//     f=f*i
+//   }
+//   console.log(f)
+// }
+// fact()
+
+function fectorialNumber(){
+  let n=5
   let f=1
   for(i=n;i>=1;i--){
+    
     f=f*i
+
   }
   console.log(f)
 }
-fact()
+fectorialNumber()
