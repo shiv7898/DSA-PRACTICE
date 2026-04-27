@@ -144,14 +144,25 @@
 // }
 // fact()
 
-function fectorialNumber(){
+// function fectorialNumber(){
+//   let n=5
+//   let f=1
+//   for(i=n;i>=1;i--){
+    
+//     f=f*i
+
+//   }
+//   console.log(f)
+// }
+// fectorialNumber()
+
+function fect(){
   let n=5
   let f=1
   for(i=n;i>=1;i--){
-    
     f=f*i
 
   }
   console.log(f)
 }
-fectorialNumber()
+fect()

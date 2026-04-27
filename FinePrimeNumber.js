@@ -52,8 +52,46 @@
 // primeNumber()
 
 
-function pri(){
-    let n=100
+// function pri(){
+//     let n=100
+//     for(i=2;i<n;i++){
+//         let isPrime=true
+//         for(j=2;j<=Math.sqrt(i);j++){
+//             if(i%j==0){
+//                 isPrime=false
+//                 break
+//             }
+                
+//         }
+//         if(isPrime){
+//          console.log(i)
+//         }
+        
+//     }
+// }
+// pri()
+
+// function primeNumber(){
+//     let n=20
+//     for(i=2;i<=n;i++){
+//        let isPrime=true
+//         for(j=2;j<=Math.sqrt(i);j++){
+//             if(i%j===0){
+//                 isPrime=false
+//                 break
+//             }
+//         }
+//         if(isPrime){
+//             console.log(i)
+//         }
+//     }
+// }
+// primeNumber()
+
+
+
+function primeNumber(){
+    let n=20
     for(i=2;i<n;i++){
         let isPrime=true
         for(j=2;j<=Math.sqrt(i);j++){
@@ -61,12 +99,10 @@ function pri(){
                 isPrime=false
                 break
             }
-                
         }
         if(isPrime){
-         console.log(i)
+            console.log(i)
         }
-        
     }
 }
-pri()
+primeNumber()

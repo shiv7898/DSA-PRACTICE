@@ -31,3 +31,11 @@
 //     }
 // }
 // reverceString()
+
+function reverceString(){
+    const str="hello world"
+    for(i=str.length;i>=0;i--){
+        console.log(str[i])
+    }
+}
+reverceString()

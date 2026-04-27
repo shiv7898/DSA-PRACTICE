@@ -29,17 +29,32 @@
 // Largest()
 
 
-function largestNumberArray(){
-    const arr=[1,12,2,3,99]
-    let la=arr[0]
+// function largestNumberArray(){
+//     const arr=[1,12,2,3,99]
+//     let la=arr[0]
     
-    for(i=0;i<arr.length;i++){
-        if(arr[i]>la){
-            la=arr[i]
+//     for(i=0;i<arr.length;i++){
+//         if(arr[i]>la){
+//             la=arr[i]
        
-        }
+//         }
 
+//     }
+//     console.log(la)
+// }
+// largestNumberArray()
+
+
+
+function largestNumberArray(){
+    const arr=[1,2,3]
+    let large=arr[0]
+    for(i=0;i<arr.length;i++){
+        if(arr[i]>large){
+            large=arr[i]
+
+        }
     }
-    console.log(la)
+    console.log(large)
 }
 largestNumberArray()
