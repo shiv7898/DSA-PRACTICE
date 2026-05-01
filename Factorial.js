@@ -156,12 +156,23 @@
 // }
 // fectorialNumber()
 
+// function fect(){
+//   let n=5
+//   let f=1
+//   for(i=n;i>=1;i--){
+//     f=f*i
+
+//   }
+//   console.log(f)
+// }
+// fect()
+
+
 function fect(){
-  let n=5
+  const n=3
   let f=1
   for(i=n;i>=1;i--){
     f=f*i
-
   }
   console.log(f)
 }

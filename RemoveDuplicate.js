@@ -115,21 +115,41 @@
 // removeDuplicate()
 
 
-function removeDuplicateNumber(){
-    const a1=[2,2,2,2,3,3,3,3,3]
-    let a2=[]
-    for(i=0;i<a1.length;i++){
-        let x=false
-        for(j=0;j<a2.length;j++){
-            if(a1[i]==a2[j]){
-                x=true
-                break
+// function removeDuplicateNumber(){
+//     const a1=[2,2,2,2,3,3,3,3,3]
+//     let a2=[]
+//     for(i=0;i<a1.length;i++){
+//         let x=false
+//         for(j=0;j<a2.length;j++){
+//             if(a1[i]==a2[j]){
+//                 x=true
+//                 break
+//             }
+//         }
+//         if(!x){
+//             a2[a2.length]=a1[i]
+//         }
+//     }
+//     console.log(a2)
+// }
+// removeDuplicateNumber()
+function removeDulpcate(){
+
+
+    const arr=[1,2,3,3,4,5,5,5,5]
+    let fl=[]
+    for(i=0;i<arr.length;i++){
+        let isDuplicate=false
+        for(j=0;j<fl.length;j++){
+            if(arr[i]==fl[j]){
+                isDuplicate=true
+                break;
             }
         }
-        if(!x){
-            a2[a2.length]=a1[i]
+        if(!isDuplicate){
+        fl[fl.length]=arr[i]
         }
     }
-    console.log(a2)
+    console.log(fl)
 }
-removeDuplicateNumber()
+removeDulpcate()
